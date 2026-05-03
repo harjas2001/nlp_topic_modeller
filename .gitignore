@@ -1,0 +1,43 @@
+# Private data — never commit real utterance or fallback data
+data/
+*.csv
+*.xlsx
+
+# Output files — generated at runtime, fed to PowerBI
+output/
+
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# NLTK data (downloaded at runtime)
+nltk_data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
